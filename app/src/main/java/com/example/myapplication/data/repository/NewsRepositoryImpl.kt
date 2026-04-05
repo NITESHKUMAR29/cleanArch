@@ -1,10 +1,11 @@
 package com.example.myapplication.data.repository
 
 import android.util.Log
-import com.example.myapplication.core.common.Resource
+
 import com.example.myapplication.data.mappers.toDomainArticle
 import com.example.myapplication.data.remote.NewsApiService
 import com.example.myapplication.domain.model.Article
+import com.example.myapplication.domain.model.Resource
 import com.example.myapplication.domain.repository.NewsRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow

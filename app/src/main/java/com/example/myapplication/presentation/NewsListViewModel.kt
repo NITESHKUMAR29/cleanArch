@@ -2,9 +2,9 @@ package com.example.myapplication.presentation
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.myapplication.core.common.Resource
 import com.example.myapplication.core.utils.UiState
 import com.example.myapplication.domain.model.Article
+import com.example.myapplication.domain.model.Resource
 import com.example.myapplication.domain.useCase.GetTopHeadlinesUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
