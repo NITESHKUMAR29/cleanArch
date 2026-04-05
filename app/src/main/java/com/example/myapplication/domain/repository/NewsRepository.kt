@@ -1,4 +1,4 @@
-package com.example.myapplication.domain.model.repositories
+package com.example.myapplication.domain.repository
 
 import com.example.myapplication.core.common.Resource
 import com.example.myapplication.domain.model.Article
@@ -8,5 +8,3 @@ interface NewsRepository {
     fun getTopHeadlines(category: String): Flow<Resource<List<Article>>>
     fun searchNews(query: String): Flow<Resource<List<Article>>>
 }
-
-

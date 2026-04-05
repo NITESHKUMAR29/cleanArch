@@ -5,7 +5,7 @@ import com.example.myapplication.core.common.Resource
 import com.example.myapplication.data.mappers.toDomainArticle
 import com.example.myapplication.data.remote.NewsApiService
 import com.example.myapplication.domain.model.Article
-import com.example.myapplication.domain.model.repositories.NewsRepository
+import com.example.myapplication.domain.repository.NewsRepository
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.flow
